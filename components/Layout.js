@@ -18,7 +18,19 @@ export default function Layout({ children, title='M. Hussain Zaidi | B2B Media B
         <meta name="description" content="Portfolio of M. Hussain Zaidi – building B2B media that turns operators into passionate advocates."/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <script defer data-domain="mzaidi.me" src="https://plausible.io/js/plausible.js"></script>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify({
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "M. Hussain Zaidi",
+      jobTitle: "B2B Media Builder",
+      url: "https://mzaidi.me",
+      sameAs: ["https://www.linkedin.com/in/m-hussain-zaidi"]
+    }),
+  }}
+></script>
           "@context":"https://schema.org",
           "@type":"Person",
           "name":"M. Hussain Zaidi",
